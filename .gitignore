@@ -1,3 +1,4 @@
 *.zip
 tmp/
 flowers-102/
+checkpoints/
