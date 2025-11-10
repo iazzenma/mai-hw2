@@ -112,3 +112,20 @@ Seaside Sparrow                           0.044
 
 ![](results/task2/ntu_lora_flowers_flower.png)
 ![](results/task2/ntu_lora_cub_bird.png)
+
+### Test Accuracy
+
+method,dataset,epochs,test_acc,val_acc
+Linear,Flowers102,10,0.9873150105708244,0.9950980392156864
+Linear,CUB-200,10,0.8482913358646876,0.83
+LoRA,Flowers102,10,0.9918685965197592,0.9901960784313726
+LoRA,CUB-200,10,0.8848809112875389,0.87
+
+## Task 3: CoCoOp
+
+=> result
+* total: 6,149
+* correct: 5,950
+* accuracy: 96.8%
+* error: 3.2%
+* macro_f1: 96.0%

@@ -2,3 +2,5 @@
 tmp/
 flowers-102/
 checkpoints/
+Dassl.pytorch/
+CoOp/
